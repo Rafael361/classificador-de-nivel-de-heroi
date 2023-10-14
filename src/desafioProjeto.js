@@ -2,8 +2,8 @@
 // Developer: Rafael Lucas
 // Data: 14/10/2023
 
-// Variáveis declaradas (vetores) e seus respectivos nomes
-let heroi = ["Slayer", "Gladiador", "Thor", "Zeus", "Poseidon", "Warrior", "Ghost", "Lancer"]
+// Variáveis declaradas, vetores e seus respectivos nomes
+let heroi = ["Slayer", "Gladiador", "Speedy", "Zeus", "Poseidon", "Warrior", "Ghost", "Lancer"]
 let pontosXp = [35, 1350, 4596, 6200, 7360, 8140, 9950, 11000]
 let nivel = "não registrado" 
 const aviso = "Classificador de nível de herói: " 
