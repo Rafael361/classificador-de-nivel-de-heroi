@@ -10,7 +10,7 @@ let nivel = "não registrado"
 
 // Estrutura de repetição para testar todas as condições, as variáveis e imprimir no terminal o resultado.
 
-for(let contador = 0; contador < heroi.length; contador++){
+for (let contador = 0; contador < heroi.length; contador++){
     if (pontosXp[contador] >=0 && pontosXp[contador] <= 1000){
         nivel = "Ferro"
     }else if (pontosXp[contador] >= 1001 && pontosXp[contador] <= 2000){
