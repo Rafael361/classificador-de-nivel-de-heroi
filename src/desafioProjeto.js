@@ -9,6 +9,8 @@ let nivel = "não registrado"
 
 // Estrutura de repetição para testar todas as condições, as variáveis e imprimir no terminal o resultado.
 for (let contador = 0; contador < heroi.length; contador++){
+
+    // Estrutura de decisão
     if (pontosXp[contador] >=0 && pontosXp[contador] <= 1000){
         nivel = "Ferro"
     }else if (pontosXp[contador] >= 1001 && pontosXp[contador] <= 2000){
@@ -26,5 +28,7 @@ for (let contador = 0; contador < heroi.length; contador++){
     }else if (pontosXp[contador] >= 10001 ){
         nivel = "Radiante"
     }
+    
+    // Saída
     console.log(`O herói de nome ${heroi[contador]} tem ${pontosXp[contador]} XP e está no nível ${nivel}`)
 }
