@@ -2,15 +2,14 @@
 // Developer: Rafael Lucas
 // Data: 14/10/2023
 
-// Variáveis declaradas, vetores e seus respectivos nomes
+// Variáveis declaradas e seus respectivos nomes, vetores para organizar os dados das variáveis com os nomes dos heróis e para a quantidade de pontos de experiência (XP)
 let heroi = ["Slayer", "Gladiador", "Speedy", "Zeus", "Poseidon", "Warrior", "Ghost", "Lancer"]
 let pontosXp = [35, 1350, 4596, 6200, 7360, 8140, 9950, 11000]
-let nivel = "não registrado" 
 const aviso = "Classificador de nível de herói: " 
 
 // Estrutura de repetição para testar todas as condições, as variáveis e imprimir no terminal o resultado.
 for (let contador = 0; contador < heroi.length; contador++){
-
+    let nivel = "não registrado"
     // Estrutura de decisão para testar as variáveis
     if (pontosXp[contador] >=0 && pontosXp[contador] <= 1000){
         nivel = "Ferro"
