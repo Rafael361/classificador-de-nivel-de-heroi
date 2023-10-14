@@ -6,6 +6,7 @@
 let heroi = ["Slayer", "Gladiador", "Thor", "Zeus", "Poseidon", "Warrior", "Ghost", "Lancer"]
 let pontosXp = [35, 1350, 4596, 6200, 7360, 8140, 9950, 11000]
 let nivel = "não registrado" 
+const aviso = "Classificador de nível de herói: " 
 
 // Estrutura de repetição para testar todas as condições, as variáveis e imprimir no terminal o resultado.
 for (let contador = 0; contador < heroi.length; contador++){
@@ -30,5 +31,6 @@ for (let contador = 0; contador < heroi.length; contador++){
     }
 
     // Saída impressa no terminal
+    console.log(aviso)
     console.log(`O herói de nome ${heroi[contador]} tem ${pontosXp[contador]} XP e está no nível ${nivel}`)
 }
