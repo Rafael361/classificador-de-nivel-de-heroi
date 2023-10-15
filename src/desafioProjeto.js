@@ -9,27 +9,27 @@ const aviso = "Classificador de nível de herói: "
 
 // Estrutura de repetição para testar todas as condições, as variáveis e imprimir no terminal o resultado.
 for (let contador = 0; contador < heroi.length; contador++){
-    let nivel = "não registrado"
+    let nivelHeroi = "não registrado"
     // Estrutura de decisão para testar as variáveis
     if (pontosXp[contador] >=0 && pontosXp[contador] <= 1000){
-        nivel = "Ferro"
+        nivelHeroi = "Ferro"
     }else if (pontosXp[contador] >= 1001 && pontosXp[contador] <= 2000){
-        nivel = "Bronze"
+        nivelHeroi = "Bronze"
     }else if (pontosXp[contador] >= 2001 && pontosXp[contador] <= 6000){
-        nivel = "Prata"
+        nivelHeroi = "Prata"
     }else if (pontosXp[contador] >= 6001 && pontosXp[contador] <= 7000){
-        nivel = "Ouro"
+        nivelHeroi = "Ouro"
     }else if (pontosXp[contador] >= 7001 && pontosXp[contador] <= 8000){
-        nivel = "Platina"
+        nivelHeroi = "Platina"
     }else if (pontosXp[contador] >= 8001 && pontosXp[contador] <= 9000){
-        nivel = "Ascendente"
+        nivelHeroi = "Ascendente"
     }else if (pontosXp[contador] >=9001 && pontosXp[contador] <= 10000){
-        nivel = "Imortal"
+        nivelHeroi = "Imortal"
     }else if (pontosXp[contador] >= 10001 ){
-        nivel = "Radiante"
+        nivelHeroi = "Radiante"
     }
 
     // Saída impressa no terminal
     console.log(aviso)
-    console.log(`O herói de nome ${heroi[contador]} tem ${pontosXp[contador]} XP e está no nível ${nivel}`)
+    console.log(`O herói de nome ${heroi[contador]} tem ${pontosXp[contador]} XP e está no nível ${nivelHeroi}`)
 }
